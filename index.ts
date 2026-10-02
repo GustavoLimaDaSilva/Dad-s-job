@@ -127,7 +127,7 @@ function displayInfo(inputDay: number, inputDayName: string, worksOnInputDay: bo
 function displayForm() {
 
     form.style.display = "flex"
-    inputDate.value = REFERENCE_DATE
+    inputDate.value = ""
     resultDiv.style.display = "none"
     h2.textContent = ""
     paragraph.textContent = ""
