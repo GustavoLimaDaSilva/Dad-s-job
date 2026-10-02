@@ -34,8 +34,7 @@ height: fit-content;
 border-radius: 10px;
 display: flex;
 flex-direction: column;
-padding: 1rem;
-padding-bottom: 0;
+padding: 1em;
 }
 
 label:not(label:first-of-type) {
@@ -43,7 +42,7 @@ margin-block: 1rem .5rem
 }
 
 label:first-of-type {
-    margin-bottom: .5rem;
+    margin-bottom: .6rem;
 }
 
 .date-input {
@@ -84,11 +83,8 @@ transition: .3s ease-in-out background-color;
 }
 
 form .btn {
-    bottom: 0;
-    left: 0;
 font-size: inherit;
-    margin-block: auto 0;
-    margin-top: 4rem;
+    margin-block: 4rem 0;
 }
 
 .results {
@@ -100,7 +96,6 @@ font-size: inherit;
 height: fit-content;
 border-radius: 10px;
 padding: var(--external-padding);
-padding-bottom: 0;
 }
 
 .feedback {
@@ -114,8 +109,4 @@ padding-bottom: 0;
     aspect-ratio: 2/2;
     margin-inline: auto;
     margin-bottom: .8em;
-}
-
-.results .btn {
-    margin-bottom: 0;
 }
