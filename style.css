@@ -52,6 +52,7 @@ label:first-of-type {
     padding-inline: .2rem;
     background-color: #1978cb;
     color: rgb(230, 230, 230);
+    width: 100%;
 }
 
 ::-webkit-calendar-picker-indicator {
