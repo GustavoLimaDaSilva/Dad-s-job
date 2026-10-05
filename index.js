@@ -84,10 +84,14 @@ function displayInfo(inputDay, inputDayName, worksOnInputDay) {
     const result = document.createTextNode(`o dia ${inputDay} cai em 
         ${isMascDay ? "um" : "uma"} ${inputDayName} e ${lastPhrase}`);
     if (!worksOnInputDay) {
-        gif.src = "../assets/digo's.gif";
-        gif.alt = "Digo's gif";
-        gif.style.display = "inline-block";
+        gif.src = "./assets/digo's happy.gif";
+        gif.alt = "Gif de comemoração";
     }
+    else {
+        gif.src = "./assets/digo's sad.jpeg";
+        gif.alt = "Foto triste no trabalho";
+    }
+    gif.style.display = "inline-block";
     h2.appendChild(feedback);
     paragraph.appendChild(result);
     resultDiv.style.display = "flex";
